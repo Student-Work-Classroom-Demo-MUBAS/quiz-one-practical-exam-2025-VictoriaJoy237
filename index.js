@@ -13,11 +13,11 @@ $("button").on("click",function(){
 
 });
 // TODO: Add code for adding new list items from form
-document.querySelectorAll{
+document.querySelectorAll('body').addEventlistener("scroll",function(){
            <ul >
-                    <li>Reading</li>
+                <li>Reading</li>
                     <li>Music</li>
                     <li>Cleaning</li>
                     <li>Exploring</li>
                 </ul>
-};
+});
