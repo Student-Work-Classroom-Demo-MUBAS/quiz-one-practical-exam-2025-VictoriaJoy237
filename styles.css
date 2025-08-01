@@ -44,5 +44,50 @@
 }
 
 /* TODO: Media query for vertical stacking on small screens */
+@media screen  and (max-width:600px){
+    .nav-content{
+        width: 100%;
+    }
+    
+}
+
 /* TODO: Dark theme styles */
+.toogle-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+    background: #002346;
+    color: aliceblue;
+}
+
+button{
+    background-color: #02243dc0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+    align-items: center;
+}
+
+.new-button{
+    background: #002346;
+    color: aliceblue;
+}
+
+.hobbies{
+    padding:60px 20px;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+    color: #011c36;
+    font-size: 30px;
+    text-align: center;
+}
+
 /* TODO: Highlight class for list items */
+.hobbies li{
+    color: aqua;
+}
