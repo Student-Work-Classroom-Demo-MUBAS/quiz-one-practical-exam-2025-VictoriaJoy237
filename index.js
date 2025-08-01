@@ -5,8 +5,11 @@ $("button").on("click",function(){
 
 // TODO: Add jQuery code for highlighting list items
 $(".hobbies").on("click",function(){
-    $("ul").addClass(".hobby");
+    $("ul").addClass("hobby");
 });
 // TODO: Add code for reset button
+$("button").on("click",function(){
+    $(".toggle-button").deleteClass("new-button");
 
+});
 // TODO: Add code for adding new list items from form
