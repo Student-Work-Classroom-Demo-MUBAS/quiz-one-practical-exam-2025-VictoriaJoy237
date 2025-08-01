@@ -24,6 +24,25 @@
     
 }
 
+/*Main Section Styling*/
+.hello{
+    background-position: center;
+    color: #002346;
+    text-align: center;
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+    padding: 50px 20px;
+    background: #81b2e286;
+    
+}
+
+.hello h1{
+    font-size: 80px;
+}
+
+.hello p{
+    font-size: 40px;
+}
+
 /* TODO: Media query for vertical stacking on small screens */
 /* TODO: Dark theme styles */
 /* TODO: Highlight class for list items */
