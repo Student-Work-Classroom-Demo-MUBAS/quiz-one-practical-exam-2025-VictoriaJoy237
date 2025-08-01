@@ -1,4 +1,29 @@
 /* TODO: Style navigation bar with Flexbox */
+.nav-content {
+    position: sticky;
+    top:0;
+    background-color: #f2f5f8cb;
+    z-index: 1000;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+
+.nav-link {
+    color: #00253f;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #2264bb;
+    text-decoration: underline;
+    
+}
+
 /* TODO: Media query for vertical stacking on small screens */
 /* TODO: Dark theme styles */
 /* TODO: Highlight class for list items */
