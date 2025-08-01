@@ -4,9 +4,9 @@ $("button").on("click",function(){
 });
 
 // TODO: Add jQuery code for highlighting list items
-$("li").on("click"),function(){
-    $("li").addClass(".hobby2 li")
-}
+$(".hobbies").on("click",function(){
+    $("ul").addClass(".hobby");
+});
 // TODO: Add code for reset button
 
 // TODO: Add code for adding new list items from form
