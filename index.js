@@ -13,3 +13,11 @@ $("button").on("click",function(){
 
 });
 // TODO: Add code for adding new list items from form
+document.querySelectorAll{
+           <ul >
+                    <li>Reading</li>
+                    <li>Music</li>
+                    <li>Cleaning</li>
+                    <li>Exploring</li>
+                </ul>
+};
